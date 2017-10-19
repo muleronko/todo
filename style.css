@@ -1,0 +1,50 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+.block{
+    //display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.block_head{
+    padding: 1rem;
+    background: #FF473A;
+    color: white;
+
+}
+.block_head_input{
+    min-width: 45rem;
+    height: 3rem;
+    color: #fff;
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-weight: 500;
+}
+::-webkit-input-placeholder{
+    color: #ffdcdd !important;
+}
+.block_head_input:focus{
+    outline: none;
+    border-bottom: 2px solid #fff;
+}
+.item{
+    padding: 1rem;
+    border: 1px solid #eeeeee;
+    border-top: none;
+}
+.item_checkbox {
+    margin: 1rem;
+}
+.item_checkbox:checked ~ .item_text{
+    color: #eeeeee;
+}
+.item_text{
+    font-size: 1.6rem;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
